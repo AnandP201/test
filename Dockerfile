@@ -2,7 +2,7 @@
 FROM tomcat:latest
 
 # Copy your .war file into the Tomcat webapps directory
-COPY target/test-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
+COPY target/test.war /usr/local/tomcat/webapps/
 
 # Expose the Tomcat default port
 EXPOSE 8080
