@@ -8,4 +8,4 @@ COPY target/test-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
 EXPOSE 8080
 
 # Start Tomcat
-CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"] 
